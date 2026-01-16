@@ -1,0 +1,105 @@
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+   .form_container {
+    width: 100%;
+    max-width: 900px;
+}
+
+
+}
+.form_btn {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.add_btn button{
+    height: 44px;
+    width: 110px;
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(79,70,229,0.25);
+    transition: all 0.2s ease;
+}
+.add_btn button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 12px 25px rgba(79, 70, 229, 0.35);
+}
+.add_btn button:active {
+    transform: translateY(0);
+    box-shadow: 0 6px 15px rgba(79, 70, 229, 0.2);
+}
+.drop_down select {
+    height: 44px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: #e5e7eb;
+    border: 1px solid #e5e7eb;
+    font-size: 14px;
+    font-weight: 500;
+    color: #111827;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    transition: all 0.2s ease;
+}
+.drop_down select:hover {
+    border-color: #c7d2fe;
+}
+.drop_down select:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.input input {
+    width: 100%;
+    max-width: 420px;     
+    height: 48px;         
+    padding: 0 14px;      
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #d0d5dd;
+    background-color: #fff;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+
+.input input:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79,70,229,0.15);
+}
+.input input::placeholder {
+    color:#9ca3af;
+}
+
+.header {
+    text-align: center;
+}
+.header h1 {
+    font-size: 48px;
+    color: rgba(9, 9, 9, 0.732);
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: #111827;
+    margin: 0;
+}
+.header p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6b7280;
+    margin-top: 10px;
+}
